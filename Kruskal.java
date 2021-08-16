@@ -21,7 +21,7 @@ public class Kruskal {
 		Arrays.fill(parent, -1);
 	}
 	
-	int find(int i)
+    int find(int i)
     {
         if (parent[i] == -1)
             return i;
