@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class QuickSort {
 	
 	void sort(int A[], int l, int h) {
