@@ -53,6 +53,7 @@ public class Dijkstra {
 		
 		for(int i=0;i<v;i++) {
 			System.out.println("Cost of shortest path from "+ s +" to "+ i + " = " + dist[i]);
+			
 			System.out.println("Path :-");
 			System.out.print(s + " ");
 			printPath(i, parent);
