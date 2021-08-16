@@ -36,13 +36,13 @@ public class Knapsack {
 		
 		for (int i = n; i > 0 && res > 0; i--) {
 			
-            if (res == dp[i - 1][W])
-                continue;
-            else {
-                System.out.println("Item - "+i+" : weight = "+wt[i-1]+", value = "+val[i-1]);
-                res = res - val[i - 1];
-                W = W - wt[i - 1];
-            }
+            	if (res == dp[i - 1][W])
+                	continue;
+            	else {
+                	System.out.println("Item - "+i+" : weight = "+wt[i-1]+", value = "+val[i-1]);
+                	res = res - val[i - 1];
+                	W = W - wt[i - 1];
+            	}
         }
 		
 	}
