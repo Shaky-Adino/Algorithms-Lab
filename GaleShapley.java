@@ -68,6 +68,7 @@ public class GaleShapley
     public void printCouples(int[] women)
     {
         System.out.println("\nCouples are :- ");
+        
         for (int i = 0; i < n; i++)
         {
             System.out.println((char)(women[i] + 'A') +" - "+ (char)(i + 'W'));
