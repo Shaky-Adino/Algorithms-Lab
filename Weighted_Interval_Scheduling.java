@@ -1,6 +1,5 @@
 import java.util.*;
 class Request{
-	
 	int start, finish, value;
 	
 	Request(int s, int f, int v){
